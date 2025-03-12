@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
 
+import myPic from  "../../images/me.png"
+
 const HexagonalGradientImage = ({ 
   imageSrc, 
   leftColor = "#4dd0e1", 
@@ -55,7 +57,7 @@ const HeroPic = () => {
       className="h-full flex items-center justify-center"
     >
       <HexagonalGradientImage 
-        imageSrc="/images/me.png"
+        imageSrc= {myPic}
         leftColor="#4dd0e1"
         rightColor="#f5a623"
       />

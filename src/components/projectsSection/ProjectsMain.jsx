@@ -3,26 +3,30 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
+import project1 from "../../images/website-img-1.png";
+import project2 from "../../images/website-img-2.png";
+import project3 from "../../images/website-img-3.jpg";
+
 const projects = [
   {
     name: "Mr. Car Lift",
     year: "Aug2024",
     align: "right",
-    image: "../../public/images/website-img-1.png",
+    image: project1,
     link: "https://mrcarlift.netlify.app/",
   },
   {
     name: "Ahdus Trachten",
     year: "Jan2025",
     align: "left",
-    image: "../../public/images/website-img-2.png",
+    image: project2,
     link: "https://ahdustrachten.netlify.app/",
   },
   {
     name: "xPal",
     year: "July2023",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: project3,
     link: "https://www.xpal.com/",
   },
 ];
